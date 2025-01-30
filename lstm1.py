@@ -7,7 +7,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import Adam
 
 # Load dataset
-data = pd.read_csv('./data/passengers_1_blr_delhi-lstm3.csv')
+data = pd.read_csv('./data/passengers_1_data.csv')
 
 data['Date'] = pd.to_datetime(data[['Year', 'Month']].assign(day=1))
 data.set_index('Date', inplace=True)
