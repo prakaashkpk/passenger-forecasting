@@ -8,3 +8,4 @@ statsmodels==0.14.4
 tensorflow-probability==0.25.0
 tensorflow==2.18.0
 tf-keras==2.18.0
+torch
